@@ -1,0 +1,13 @@
+package com.pos.dao;
+
+import com.pos.entity.Purchase;
+import javafx.collections.ObservableList;
+
+public interface PurchaseDao {
+    
+    public ObservableList<Purchase> getPurchases();
+    public Purchase getPurchase(long id);
+    public void savePurchase(Purchase purchase);
+    public void updatePurchase(Purchase purchase);
+    public void deletePurchase(Purchase purchase);
+}

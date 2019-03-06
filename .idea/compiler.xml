@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pos" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pos" options="-bootclasspath &quot;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Users\Tharindu Amaraweera\AppData\Local\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_111/jre/lib/jfxrt.jar&quot;" />
+    </option>
+  </component>
+</project>
